@@ -225,7 +225,7 @@ h1 {
 
 
 .newsCont p {
-  width: 100%;
+  width: 90%;
   font-size: 1rem;
   text-align: center;
   color: #d6c7dd;
@@ -301,6 +301,11 @@ footer {
     font-size: 2rem;
   }
 
+  .newsCont{
+    width: 20rem;
+    height: 42rem;
+  }
+
   #containerWrapper {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
@@ -322,19 +327,7 @@ footer {
     padding-top: 1rem;
   }
 
-  .containerNews {
-    width: 22rem;
-    height: 30rem;
-  }
 
-  .containerNews>p {
-    width: 15rem;
-  }
-
-  .imgNews {
-    width: 100%;
-    height: auto;
-  }
 
   #containerSectionNews {
     flex-direction: column;
